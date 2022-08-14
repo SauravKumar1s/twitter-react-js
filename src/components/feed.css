@@ -1,0 +1,82 @@
+.feedSection{
+    min-width: 560px;
+    border-right: 1px solid rgb(0, 0, 0);
+    height: inherit;
+}
+.feed{
+    position: sticky;
+    top: 0%;
+}
+.feed h2{
+    margin: 0%;
+    padding: 20px;
+    width: 40rem;
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid black;
+    right: 20px;
+    background-color: #fff;
+
+}
+.textTweet{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    
+}
+input{
+    padding: 20px 80px ;
+    font-size: 19px;
+    border: none;
+    width: 200%;
+    height: 50px;
+}
+input:hover{
+    border: none;
+}
+input::placeholder{
+    font-size: 20px;
+}
+.tweet{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 1px solid black;
+    z-index: 100;
+}
+.textTweet input[text]{
+    width: 400px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.emoji{
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+    /* font-size: ; */
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 30px;
+    border: none;
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+.feedSection{
+    scroll-snap-align: start;
+    scroll-margin-top: 75px; /* height of web page’s sticky header */ scroll-snap-type: y proximity;
+  }
+.post__avatar img{
+    width: 40px;
+
+}
+

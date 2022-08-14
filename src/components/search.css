@@ -1,0 +1,26 @@
+.SearchBox{
+    background-color: ;
+    padding: 20px;
+    width: 350px;
+}
+.trending-section input{
+    height: 20px;
+    padding: 4px 80px;
+    width: 180px;
+    border-radius: 100px;
+    background-color: rgb(247, 249, 249);
+}
+.trending-section{
+    position: sticky;
+    top: 20px;
+
+}
+.trending-section-bottom{
+    padding: 0px 0px;
+    margin: 20px;
+    background-color:rgb(247, 249, 249) ;
+}
+.trending-word{
+    padding: 20px;
+    background-color:rgb(247, 249, 249) ;
+}
